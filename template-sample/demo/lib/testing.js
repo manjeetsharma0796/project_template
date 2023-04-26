@@ -1,7 +1,7 @@
 const style = require("./utils.js");
-const boldUnderline = style.boldUnderline;
-const highlighterBlue = style.highlighterBlue;
-const highlighterYellow = style.highlighterYellow;
+const { boldUnderline } = style;
+const { highlighterBlue } = style;
+const { highlighterYellow } = style;
 let totalAssertions = 0;
 let failedAssertions = 0;
 
